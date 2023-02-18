@@ -1,0 +1,178 @@
+@use "../main.scss";
+
+$red: #bb2339;
+$white: #ffffff;
+$black: #242424;
+$darkgrey: #333333;
+$pro: "Cera Round Pro", sans-serif;
+$sans: "Open Sans", sans-serif;
+
+main {
+  padding: 220px 0 0;
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .page {
+      position: absolute;
+      top: 0;
+      left: 45px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      letter-spacing: 0.03em;
+      font-family: $sans;
+      color: $red;
+      span {
+        color: #b0b0b0;
+      }
+      .span {
+        color: #b0b0b0;
+      }
+      a {
+        color: $red;
+      }
+    }
+    h2 {
+      font-weight: 500;
+      font-size: 64px;
+      line-height: 130%;
+      font-family: $pro;
+      color: $black;
+      margin: 8px 0;
+	  text-align: center;
+    }
+    h3 {
+      font-weight: 500;
+      font-size: 38px;
+      line-height: 130%;
+      font-family: $pro;
+      color: $black;
+      letter-spacing: 0.03em;
+      margin-bottom: 40px;
+    }
+    .spoon {
+      margin-bottom: 10px;
+    }
+    .contacts {
+      width: 100%;
+      display: grid;
+      gap: 50px;
+      margin: 40px 0 110px;
+      .contact__left {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .card {
+          background: #ffffff;
+          border: 1px solid rgba(36, 36, 36, 0.1);
+          border-radius: 14px;
+          display: grid;
+          grid-template-columns: repeat(2, auto);
+          gap: 25px;
+          align-items: center;
+          justify-content: flex-start;
+          padding: 25px;
+          i {
+            font-size: 25px;
+            padding: 15px;
+            border-radius: 50%;
+            background-color: rgba(36, 36, 36, 0.05);
+          }
+          p {
+            margin-bottom: 0;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 34px;
+            color: $black;
+          }
+          a {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            color: $black;
+            opacity: 0.7;
+          }
+        }
+      }
+      .contact__right {
+		position: relative;
+        padding: 40px;
+        background: $white;
+        border: 1px solid rgba(36, 36, 36, 0.1);
+        border-radius: 14px;
+        h3 {
+          font-weight: 600;
+          font-size: 38px;
+          line-height: 34px;
+          color: $black;
+          margin-bottom: 16px;
+        }
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: $black;
+          opacity: 0.7;
+          max-width: 600px;
+        }
+		.btn-red{
+			position: absolute;
+			bottom: 40px;
+		}
+        .inputs {
+			margin-bottom: 70px;
+          input {
+            padding: 20px;
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 22px;
+            display: flex;
+            align-items: center;
+            background: #fff;
+            border: 1px solid rgba(51, 34, 68, 0.1);
+            border-radius: 12px;
+            color: $red;
+          }
+          textarea {
+			max-height: 160px;
+            padding: 20px;
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 22px;
+            display: flex;
+            align-items: center;
+            background: #fff;
+            border: 1px solid rgba(51, 34, 68, 0.1);
+            border-radius: 12px;
+            color: rgba(51, 51, 51, 0.7);
+          }
+          input:hover {
+            border: 1px solid $red;
+          }
+		  textarea:hover {
+            border: 1px solid $red;
+          }
+		  input:focus {
+            border: 1px solid $red;
+          }
+		  textarea:focus {
+            border: 1px solid $red;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 850px) {
+  .contacts {
+    grid-template-columns: repeat(2, auto);
+  }
+}

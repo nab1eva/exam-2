@@ -1,0 +1,58 @@
+
+
+$red: #BB2339;
+$white: #ffffff;
+$black: #242424;
+$darkgrey: #333333;
+$pro: 'Cera Round Pro', sans-serif;
+$sans: 'Open Sans', sans-serif;
+
+
+.btn-white {
+  padding: 10px 30px;
+  border-radius: 100px;
+  border: 1px solid $white;
+  background-color: transparent;
+  color: $white;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  font-family: $sans;
+  a{
+	color: $white;
+  }
+}
+
+.btn-white:hover{
+	background-color: $white;
+	color: $black;
+	a{
+		color: $black;
+	}
+}
+
+
+
+
+.btn-red {
+	padding: 10px 30px;
+	border-radius: 100px;
+	border: 1px solid $red;
+	background-color: transparent;
+	color: $black;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 175%;
+	font-family: $sans;
+	a{
+	  color: $red;
+	}
+  }
+  
+  .btn-red:hover{
+	  background-color: $red;
+	  color: $white;
+	  a{
+		  color: $white;
+	  }
+  }

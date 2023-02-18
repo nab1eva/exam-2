@@ -1,0 +1,122 @@
+@use "../main.scss";
+
+$red: #bb2339;
+$white: #ffffff;
+$black: #242424;
+$darkgrey: #333333;
+$pro: "Cera Round Pro", sans-serif;
+$sans: "Open Sans", sans-serif;
+
+main {
+  padding: 220px 0 0;
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .page {
+      position: absolute;
+      top: 0;
+      left: 45px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      letter-spacing: 0.03em;
+      font-family: $sans;
+      color: $red;
+      span {
+        color: #b0b0b0;
+      }
+      .span {
+        color: #b0b0b0;
+      }
+      a {
+        color: $red;
+      }
+    }
+    h2 {
+      font-weight: 500;
+      font-size: 64px;
+      line-height: 130%;
+      font-family: $pro;
+      color: $black;
+	  margin-bottom: 8px;
+    }
+    .cards {
+      margin-top: 60px;
+	  margin-bottom: 70px;
+      display: grid;
+      justify-content: center;
+      gap: 35px;
+      .card {
+        border: 1px solid rgba(36, 36, 36, 0.1);
+        border-radius: 14px;
+        img {
+          margin: 0;
+          width: 100%;
+        }
+        .cardtext {
+          padding: 20px 30px 30px 20px;
+          h4 {
+            max-width: 342px;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            font-family: $pro;
+            color: $black;
+            text-transform: capitalize;
+          }
+          p {
+            margin: 10px 0 20px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            font-family: $sans;
+            color: #aaaaaa;
+            max-width: 370px;
+          }
+          .read {
+            display: flex;
+            justify-content: space-between;
+            a {
+              font-family: $pro;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 16px;
+              letter-spacing: 0.04em;
+              color: $red;
+            }
+            h6 {
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 19px;
+              color: #242424;
+              opacity: 0.5;
+            }
+          }
+        }
+      }
+    }
+	.btn-red{
+		a{
+			color: $black;
+			font-weight: 700;
+		}
+	}
+  }
+}
+
+
+@media(min-width: 700px){
+	.cards{
+		grid-template-columns: repeat(2, auto);
+	}
+}
+
+
+@media(min-width: 1100px){
+	.cards{
+		grid-template-columns: repeat(3, auto);
+	}
+}

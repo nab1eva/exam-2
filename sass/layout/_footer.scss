@@ -1,0 +1,250 @@
+$red: #bb2339;
+$white: #ffffff;
+$black: #242424;
+$darkgrey: #333333;
+$pro: "Cera Round Pro", sans-serif;
+$sans: "Open Sans", sans-serif;
+
+footer {
+  position: relative;
+  margin-top: 120px;
+  .container {
+    position: relative;
+  }
+}
+
+.footer-top__absolute {
+  display: none;
+  padding: 64px 0;
+  position: absolute;
+  top: -200px;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: #bb2339;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 22px 30px 95px 1px rgba(86, 86, 86, 0.2);
+  border-radius: 20px;
+  h1 {
+    margin: 17px 0 25px;
+    font-family: $pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: $white;
+  }
+  h4 {
+    font-family: $pro;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.475rem;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: $white;
+  }
+  p {
+    font-family: $sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 175%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: $white;
+  }
+  form {
+    margin-top: 64px;
+    input {
+      width: 45%;
+      padding: 12px 19px;
+      font-family: $pro;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 175%;
+      background-color: rgba(0, 0, 0, 0);
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      color: #aaa;
+      border: 1px solid rgba(245, 239, 219, 0.5);
+      border-radius: 100px;
+    }
+    a {
+      padding: 12px 32px;
+      font-family: $pro;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1rem;
+      line-height: 175%;
+      letter-spacing: 0.04em;
+      color: $white;
+      border: 1px solid $white;
+      border-radius: 100px;
+    }
+    a:hover {
+      color: rgba(255, 255, 255, 0.7);
+      text-decoration: none;
+    }
+  }
+}
+
+.footer {
+  padding: 40px 0;
+  background-color: #bb2339;
+  .footer-top {
+    display: block;
+    padding: 64px 0;
+    background: #bb2339;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 22px 30px 95px 1px rgba(86, 86, 86, 0.2);
+    border-radius: 20px;
+    h4 {
+      font-family: $pro;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.475rem;
+      line-height: 130%;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      color: $white;
+    }
+    h1 {
+      margin: 17px 0 25px;
+      font-family: $pro;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 3rem;
+      line-height: 130%;
+      letter-spacing: 0.03em;
+      text-transform: capitalize;
+      color: $white;
+    }
+    p {
+      font-family: $sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 175%;
+      text-align: center;
+      letter-spacing: 0.04em;
+      color: $white;
+    }
+    form {
+      margin-top: 64px;
+      input {
+        width: 45%;
+        padding: 12px 19px;
+        font-family: $pro;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 175%;
+        background-color: rgba(0, 0, 0, 0);
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+
+        color: #aaa;
+        border: 1px solid rgba(245, 239, 219, 0.5);
+        border-radius: 100px;
+      }
+      a {
+        padding: 12px 32px;
+        font-family: $pro;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: $white;
+        border: 1px solid $white;
+        border-radius: 100px;
+      }
+      a:hover {
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.footer-bottom {
+  padding: 100px 0 80px;
+  h2 {
+    margin-bottom: 24px;
+    font-family: $pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: $white;
+  }
+  p {
+    margin-bottom: 10px;
+    font-family: $sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: $white;
+  }
+  img {
+    width: 330px;
+    margin-top: -30px;
+  }
+  .footer-bottom__contact {
+    .contact-address {
+      font-family: $sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 26px;
+      letter-spacing: 0.04em;
+    }
+    .footer-contact__tel a {
+      font-family: $sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 26px;
+      letter-spacing: 0.04em;
+    }
+  }
+  .footer-bottom__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .logo-text {
+      max-width: 438px;
+      margin: 32px 0 45px;
+    }
+    .bottom-logo__icon i {
+      font-size: 24px;
+    }
+  }
+}
+
+
+
+
+@media (min-width: 800px) {
+  .footer-top__absolute {
+    display: block !important;
+  }
+  .footer-top {
+    display: none !important;
+  }
+  .footer-bottom {
+    flex-wrap: nowrap !important;
+    padding: 292px 0 80px !important;
+  }
+  footer {
+    padding-top: 220px;
+  }
+}

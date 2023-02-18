@@ -1,0 +1,103 @@
+$red: #bb2339;
+$white: #ffffff;
+$black: #242424;
+$darkgrey: #333333;
+$pro: "Cera Round Pro", sans-serif;
+$sans: "Open Sans", sans-serif;
+
+* {
+  font-family: "Open Sans", sans-serif;
+  transition: all 0.4s ease;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+#backtop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 9999;
+  border-radius: 12px;
+  border: 4px solid $red;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: 0.6s;
+  background-color: $white;
+}
+
+#backtop a {
+  font-weight: 700;
+  font-size: 24px;
+  color: $red;
+}
+
+header {
+  background-color: $red;
+  nav {
+    background-color: $red;
+	padding: 38px 0;
+  }
+}
+
+.offcanvas {
+  background-color: $red;
+  .navbar-nav{
+	gap: 20px;
+  }
+}
+
+.bg-body-tertiary {
+  background-color: $red !important;
+  padding: 38px 0;
+}
+
+.nav-item {
+  a {
+    color: $white;
+  }
+}
+
+.navbar-nav {
+  gap: 40px;
+}
+
+.dropdown-menu {
+  background-color: $red;
+  border: 1px solid $white;
+  li {
+    background-color: $red !important;
+  }
+  :hover {
+    background-color: $red !important;
+  }
+}
+
+.dropdown-divider {
+  background-color: $white;
+}
+
+.navbar-toggler {
+  border: 1px solid $black;
+}
+
+.navbar-toggler:hover {
+  border: 2px solid $black;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+
+.offcanvas-header .btn-close{
+	padding: 20px;
+}
+
+
+
+.navbarshrink {
+	padding: 10px 0px;
+	box-shadow: 1px 5px 15px $red;
+  }
