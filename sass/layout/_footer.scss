@@ -220,7 +220,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    p{
+    p {
       max-width: 438px;
       margin: 32px 0 45px;
     }
@@ -229,9 +229,6 @@ footer {
     }
   }
 }
-
-
-
 
 @media (min-width: 800px) {
   .footer-top__absolute {
