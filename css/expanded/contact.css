@@ -195,7 +195,7 @@ footer .container {
 }
 .footer .footer-top {
   display: block;
-  padding: 64px 0;
+  padding: 64px 10px;
   background: #bb2339;
   border: 1px solid rgba(255, 255, 255, 0.4);
   box-shadow: 22px 30px 95px 1px rgba(86, 86, 86, 0.2);
