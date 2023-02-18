@@ -2,8 +2,6 @@ $red: #BB2339;
 $white: #ffffff;
 $black: #242424;
 $darkgrey: #333333;
-$pro: 'Cera Round Pro', sans-serif;
-$sans: 'Open Sans', sans-serif;
 
 #loading {
 	position: fixed;
@@ -15,7 +13,7 @@ $sans: 'Open Sans', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-	z-index: 11111111;
+	z-index: 1111;
 }
 
 
@@ -35,13 +33,14 @@ $sans: 'Open Sans', sans-serif;
 }
 .ldio-h0681046vzg > div:nth-child(2) div {
   position: absolute;
+  z-index: 1111;
   top: 40px;
   left: 40px;
   width: 120px;
   height: 60px;
   border-radius: 120px 120px 0 0;
   background: $white;
-  animation: ldio-h0681046vzg-1 1s linear infinite;
+  animation: 1s linear infinite;
   transform-origin: 60px 60px
 }
 .ldio-h0681046vzg > div:nth-child(2) div:nth-child(2) {
@@ -50,7 +49,8 @@ $sans: 'Open Sans', sans-serif;
 .ldio-h0681046vzg > div:nth-child(2) div:nth-child(3) {
   transform: rotate(-90deg);
   animation: none;
-}@keyframes ldio-h0681046vzg-3 {
+}
+@keyframes ldio-h0681046vzg-3 {
 	0% { transform: translate(190px,0); opacity: 0 }
    20% { opacity: 1 }
   100% { transform: translate(70px,0); opacity: 1 }
@@ -60,13 +60,14 @@ $sans: 'Open Sans', sans-serif;
 }
 .ldio-h0681046vzg > div:nth-child(1) div {
   position: absolute;
+  z-index: 1111;
   top: 92px;
   left: -8px;
   width: 16px;
   height: 16px;
   border-radius: 50%;
   background: $white;
-  animation: ldio-h0681046vzg-3 1s linear infinite
+  animation: 1s linear infinite;
 }
 .ldio-h0681046vzg > div:nth-child(1) div:nth-child(1) { animation-delay: -0.67s }
 .ldio-h0681046vzg > div:nth-child(1) div:nth-child(2) { animation-delay: -0.33s }
