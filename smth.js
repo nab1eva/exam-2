@@ -1,3 +1,10 @@
+setTimeout(() => {
+  document.getElementById("loading").style.display = "none";
+}, 3000);
+
+
+
+
 window.addEventListener("scroll", function () {
   shrink();
 });
